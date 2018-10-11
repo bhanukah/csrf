@@ -1,2 +1,2 @@
 # csrf
-Synchronizer Token Pattern and Double Submit Cookies Pattern
+Synchronizer Token Pattern and Double Submit Cookie Pattern
