@@ -25,17 +25,17 @@
         <form action="transfer" method="POST" id="myform">
             <div>
                 <label>Account ID</label>
-                <input type="text" class="form-control" id="accId" placeholder="Account ID" name="accid" value="ACC0101012">
+                <input type="text" id="accId" placeholder="Account ID" name="accid" value="ACC0101012">
             </div>
-            <div class="form-group">
+            <div>
                 <label>Amount</label>
-                <input type="number" class="form-control" id="amount" placeholder="Amount" name="amount" value="2000.00">
+                <input type="number" id="amount" placeholder="Amount" name="amount" value="2000.00">
             </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="csrf" name="csrf" value=<%=csrf %>>
+            <div>
+                <input type="hidden" id="csrf" name="csrf" value=<%=csrf %>>
             </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-success btn-block">Transfer</button>
+            <div>
+                <button type="submit">Transfer</button>
             </div>
         </form>
     </body>

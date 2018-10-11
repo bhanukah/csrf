@@ -14,14 +14,14 @@
         <form action="login" method="POST" id="myform">
             <div>
                 <label>User ID</label>
-                <input type="text" class="form-control" id="userid"  name="userid" value="bhhilk">
+                <input type="text" id="userid"  name="userid" value="bhhilk">
             </div>
-            <div class="form-group">
+            <div>
                 <label>Password</label>
-                <input type="password" class="form-control" id="password"  name="password" value="admin">
+                <input type="password" id="password"  name="password" value="admin">
             </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-success btn-block">Sign in</button>
+            <div>
+                <button type="submit" >Sign in</button>
             </div>
         </form>
     </div>
