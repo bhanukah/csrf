@@ -88,7 +88,7 @@ public class Transfer extends HttpServlet {
                 out.println("<!DOCTYPE html>");
                 out.println("<html>");
                 out.println("<head>");
-                out.println("<title>Success</title>");            
+                out.println("<title>Error</title>");            
                 out.println("</head>");
                 out.println("<body>");
                 out.println("<h1>Transfer Failed</h1>");

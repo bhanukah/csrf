@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ssd.sync;
 
 import java.io.IOException;
@@ -74,7 +69,7 @@ public class Transfer extends HttpServlet {
                 out.println("<!DOCTYPE html>");
                 out.println("<html>");
                 out.println("<head>");
-                out.println("<title>Success</title>");            
+                out.println("<title>Error</title>");            
                 out.println("</head>");
                 out.println("<body>");
                 out.println("<h1>Transfer Failed</h1>");
